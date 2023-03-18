@@ -6,7 +6,7 @@ class MemeGenerator:
     @classmethod
     def return_meme(cls):
         '''
-            Возвращает сылку на случайным мем из Reddit
+            Возвращает ссылку на случайный мем из Reddit
         '''
         responce = r.get(
                     'https://www.reddit.com/r/memes/random.json?limit=1',
